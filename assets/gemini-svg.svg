@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 280" width="100%" height="100%">
+  <defs>
+    <style>
+      700&family=JetBrains+Mono:wght@400;600&display=swap');
+      .bg { fill: #070b16; }
+      .card { fill: #0d1326; stroke: rgba(36, 123, 255, 0.25); stroke-width: 1.5; rx: 16px; }
+      .heading { font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 24px; fill: #f5f7fb; }
+      .link-card { fill: #111827; stroke: #247bff; stroke-width: 1; rx: 12px; }
+      .link-text { font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 16px; fill: #f5f7fb; }
+      .link-sub { font-family: 'JetBrains Mono', monospace; font-size: 12px; fill: #94a3b8; }
+    </style>
+  </defs>
+
+  <rect width="900" height="280" class="bg" rx="16" />
+  <rect x="15" y="15" width="870" height="250" class="card" />
+
+  <!-- Right-Pointing Character Asset -->
+  <g transform="translate(40, 45)">
+    
+  </g>
+
+  <text x="240" y="55" class="heading">🤝 Let's Build Together</text>
+
+  <!-- Connect Cards -->
+  <g transform="translate(240, 75)">
+    <!-- GitHub Card -->
+    <g transform="translate(0, 0)">
+      <rect x="0" y="0" width="280" height="50" class="link-card" />
+      <text x="20" y="31" class="link-text">GitHub</text>
+      <text x="120" y="30" class="link-sub">@Fayaz-Codify</text>
+    </g>
+
+    <!-- LinkedIn Card -->
+    <g transform="translate(295, 0)">
+      <rect x="0" y="0" width="280" height="50" class="link-card" />
+      <text x="20" y="31" class="link-text">LinkedIn</text>
+      <text x="120" y="30" class="link-sub">Professional Network</text>
+    </g>
+
+    <!-- Instagram Card -->
+    <g transform="translate(0, 65)">
+      <rect x="0" y="0" width="280" height="50" class="link-card" />
+      <text x="20" y="31" class="link-text">Instagram</text>
+      <text x="120" y="30" class="link-sub">@fayaz.codify</text>
+    </g>
+
+    <!-- Topmate Card -->
+    <g transform="translate(295, 65)">
+      <rect x="0" y="0" width="280" height="50" class="link-card" />
+      <text x="20" y="31" class="link-text">Mentorship</text>
+      <text x="120" y="30" class="link-sub">Book a 1:1 session</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 320" width="100%" height="100%">
+  <defs>
+    <style>
+      700&family=JetBrains+Mono:wght@400;600&display=swap');
+      .bg { fill: #070b16; }
+      .card { fill: #0d1326; stroke: rgba(36, 123, 255, 0.25); stroke-width: 1.5; rx: 16px; }
+      .heading { font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 24px; fill: #f5f7fb; }
+      .id-card { fill: #111827; stroke: #247bff; stroke-width: 1.5; rx: 14px; }
+      .id-name { font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 18px; fill: #f5f7fb; }
+      .id-role { font-family: 'JetBrains Mono', monospace; font-size: 12px; fill: #247bff; }
+      
+      @keyframes swing {
+        0% { transform: rotate(0deg); }
+        25% { transform: rotate(1.7deg); }
+        75% { transform: rotate(-1.7deg); }
+        100% { transform: rotate(0deg); }
+      }
+      .lanyard-assembly {
+        transform-origin: 450px 0px;
+        animation: swing 4s ease-in-out infinite;
+      }
+    </style>
+  </defs>
+
+  <rect width="900" height="320" class="bg" rx="16" />
+  <rect x="15" y="15" width="870" height="290" class="card" />
+  
+  <text x="50" y="55" class="heading">🪪 Developer Identity Dashboard</text>
+
+  <!-- Hanging Lanyard ID Card -->
+  <g class="lanyard-assembly" transform="translate(325, 70)">
+    <!-- Lanyard Strap -->
+    <path d="M 125 0 L 125 45" stroke="#247bff" stroke-width="4" fill="none" />
+    <circle cx="125" cy="45" r="6" fill="#ff354f" />
+
+    <!-- ID Badge Base -->
+    <rect x="0" y="50" width="250" height="180" class="id-card" />
+    <rect x="0" y="50" width="250" height="35" fill="#1f2937" rx="14" />
+    <circle cx="125" cy="67" r="4" fill="#070b16" />
+
+    <!-- Portrait on ID -->
+    <circle cx="65" cy="125" r="30" fill="#070b16" stroke="#247bff" stroke-width="1.5" />
+    
+
+    <!-- Details -->
+    <text x="110" y="115" class="id-name">Fayaz Ahmad</text>
+    <text x="110" y="135" class="id-role">Full-Stack Dev</text>
+    
+    <!-- Barcode simulation -->
+    <g transform="translate(30, 175)" fill="#94a3b8">
+      <rect x="0" y="0" width="4" height="30" /><rect x="8" y="0" width="2" height="30" /><rect x="14" y="0" width="6" height="30" /><rect x="24" y="0" width="3" height="30" /><rect x="31" y="0" width="5" height="30" /><rect x="40" y="0" width="2" height="30" /><rect x="46" y="0" width="7" height="30" /><rect x="58" y="0" width="3" height="30" /><rect x="65" y="0" width="5" height="30" /><rect x="74" y="0" width="2" height="30" /><rect x="80" y="0" width="6" height="30" /><rect x="90" y="0" width="3" height="30" /><rect x="98" y="0" width="4" height="30" /><rect x="106" y="0" width="2" height="30" /><rect x="112" y="0" width="6" height="30" /><rect x="122" y="0" width="3" height="30" /><rect x="129" y="0" width="5" height="30" /><rect x="138" y="0" width="2" height="30" /><rect x="144" y="0" width="6" height="30" /><rect x="154" y="0" width="4" height="30" /><rect x="162" y="0" width="2" height="30" /><rect x="170" y="0" width="5" height="30" /><rect x="179" y="0" width="3" height="30" /><rect x="185" y="0" width="4" height="30" />
+    </g>
+  </g>
+</svg>

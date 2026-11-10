@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 340" width="100%" height="100%">
+  <defs>
+    <style>
+      700&family=JetBrains+Mono:wght@400;600&display=swap');
+      .bg { fill: #070b16; }
+      .card { fill: #0d1326; stroke: rgba(36, 123, 255, 0.25); stroke-width: 1.5; rx: 16px; }
+      .title { font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 46px; fill: #f5f7fb; opacity: 0; animation: fadeInDown 0.8s ease forwards 0.3s; }
+      .role { font-family: 'JetBrains Mono', monospace; font-size: 16px; fill: #247bff; font-weight: 600; }
+      .pitch { font-family: 'Space Grotesk', sans-serif; font-size: 15px; fill: #94a3b8; }
+      .location { font-family: 'JetBrains Mono', monospace; font-size: 13px; fill: #ff354f; }
+      @keyframes fadeInDown {
+        from { opacity: 0; transform: translateY(-15px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+      @keyframes float {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-6px); }
+      }
+      .floating { animation: float 5s ease-in-out infinite; }
+    </style>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#247bff" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#ff354f" stop-opacity="0.05" />
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="340" class="bg" rx="16" />
+  <rect x="15" y="15" width="870" height="310" class="card" fill="url(#glow)" />
+
+  <!-- Portrait Container -->
+  <g class="floating" transform="translate(640, 50)">
+    <circle cx="100" cy="110" r="85" fill="#111827" stroke="#247bff" stroke-width="2" />
+    
+  </g>
+
+  <!-- Text Content -->
+  <g transform="translate(60, 90)">
+    <text x="0" y="0" class="role">👋 HELLO, WORLD. I'M</text>
+    <text x="0" y="52" class="title">FAYAZ AHMAD</text>
+    <text x="0" y="90" class="pitch">Full-Stack Developer & SaaS Builder crafting clean</text>
+    <text x="0" y="114" class="pitch">architecture and practical user experiences.</text>
+    
+    <g transform="translate(0, 155)">
+      <rect x="0" y="-18" width="180" height="28" rx="6" fill="#111827" stroke="#ff354f" stroke-width="1" />
+      <text x="12" y="1" class="location">📍 Mingora, Pakistan</text>
+    </g>
+  </g>
+</svg>

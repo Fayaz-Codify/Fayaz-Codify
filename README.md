@@ -1,13 +1,9 @@
 <div align="center">
 
 ![Hero](./assets/hero.svg?v=1)
-
 ![About Life](./assets/about-life.svg?v=1)
-
 ![Tech Stack](./assets/stack.svg?v=1)
-
 ![Developer ID](./assets/id-dashboard.svg?v=1)
-
 ![Connect](./assets/connect.svg?v=1)
 
 </div>
